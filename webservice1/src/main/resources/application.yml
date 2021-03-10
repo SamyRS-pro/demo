@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: name-of-the-microservice1
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8762/eureka/
+healthcheck:
+  enabled: true
